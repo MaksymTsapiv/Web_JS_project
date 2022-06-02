@@ -5,7 +5,7 @@ import '../styles/Timer.css'
 
 const Timer = () => {
     const calculatetimePassed = () => {
-        const difference = +new Date() - Date.parse("2022-02-24T03:40:00.000Z");
+        const difference = +new Date() - Date.parse("Feb 24 2022 GMT-0200");
         let timePassed = {};
     
         if (difference > 0) {
