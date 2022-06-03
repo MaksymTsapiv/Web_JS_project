@@ -1,6 +1,8 @@
 .MapAndContacts {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 30px;
     justify-content: center;
     align-items: center;
     margin: 100px 0;
