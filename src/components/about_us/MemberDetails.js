@@ -6,13 +6,13 @@ const MemberDetails = ( {name, details, facebookLink, gitHubLink, linkedInLink} 
         <span>{name}</span>
         <span>{details}</span>
         <div className='links'>
-            <a className='icon' href={facebookLink}>
+            <a className='icon-member' href={facebookLink}>
                 <FaFacebook />
             </a>
-            <a className='icon' href={gitHubLink}>
+            <a className='icon-member' href={gitHubLink}>
                 <FaGithub />
             </a>
-            <a className='icon' href={linkedInLink}>
+            <a className='icon-member' href={linkedInLink}>
                 <FaLinkedin />
             </a>
         </div>

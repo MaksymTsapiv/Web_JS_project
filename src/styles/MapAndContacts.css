@@ -1,0 +1,8 @@
+.MapAndContacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+    height: 400px;
+}

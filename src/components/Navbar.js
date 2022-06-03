@@ -64,11 +64,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/gallery'
+                to='/map'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Gallery
+                Map
               </Link>
             </li>
 

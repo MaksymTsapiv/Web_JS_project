@@ -13,6 +13,6 @@
     flex-direction: row;
     gap: 30px
 }
-.icon {
+.icon-member {
     transform: scale(1.3);
 }
