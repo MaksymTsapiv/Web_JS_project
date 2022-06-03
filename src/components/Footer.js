@@ -11,27 +11,51 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
+            <Link to='/' onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://www.facebook.com/profile.php?id=100082068692714';}}>How it works</Link>
+            <Link to='/' onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://www.facebook.com/profile.php?id=100082068692714';}}>Testimonials</Link>
+            <Link to='/' onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://www.facebook.com/profile.php?id=100082068692714';}} >Careers</Link>
+            <Link to='/' onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://www.facebook.com/profile.php?id=100082068692714';}} >Investors</Link>
             <Link to='/'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link to='/' onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://www.facebook.com/profile.php?id=100082068692714';}}>Contact</Link>
+            <Link to='/' onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://www.facebook.com/profile.php?id=100082068692714';}}>Support</Link>
+            <Link to='/' onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://www.facebook.com/profile.php?id=100082068692714';}}>Destinations</Link>
+            <Link to='/' onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://www.facebook.com/profile.php?id=100082068692714';}}>Sponsorships</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <Link to='/' onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://www.facebook.com/profile.php?id=100082068692714';}}>Submit Video</Link>
+            <Link to='/' onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://www.facebook.com/profile.php?id=100082068692714';}}>Ambassadors</Link>
+            <Link to='/' onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://www.facebook.com/profile.php?id=100082068692714';}}>Agency</Link>
+            <Link to='/' onClick={(e) => {
+      e.preventDefault();
+      window.location.href='https://twitter.com/BybyomOfficial';}}>Influencer</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
@@ -67,6 +91,9 @@ function Footer() {
             <Link
               class='social-icon-link facebook'
               to='/'
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://www.facebook.com/profile.php?id=100082068692714';}}
               target='_blank'
               aria-label='Facebook'
             >
@@ -75,6 +102,9 @@ function Footer() {
             <Link
               class='social-icon-link instagram'
               to='/'
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://www.instagram.com/bybyom.official/';}}
               target='_blank'
               aria-label='Instagram'
             >
@@ -83,6 +113,9 @@ function Footer() {
             <Link
               class='social-icon-link youtube'
               to='/'
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://www.youtube.com/channel/UCs1j8Sd-aDC4as15Q7ps4cQ/featured';}}
               target='_blank'
               aria-label='Youtube'
             >
@@ -91,6 +124,9 @@ function Footer() {
             <Link
               class='social-icon-link twitter'
               to='/'
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://twitter.com/BybyomOfficial';}}
               target='_blank'
               aria-label='Twitter'
             >
@@ -99,6 +135,9 @@ function Footer() {
             <Link
               class='social-icon-link twitter'
               to='/'
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://www.linkedin.com/in/bybyom-bybyom-403bb9240/';}}
               target='_blank'
               aria-label='LinkedIn'
             >
