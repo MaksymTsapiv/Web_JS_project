@@ -9,6 +9,7 @@ import Donate from './components/pages/Donate';
 import About from './components/pages/About';
 import MainSection from './components/MainSection';
 import Footer from './components/Footer';
+import Timer from './components/Timer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/donate' component={Donate} />
         </Routes>
         <MainSection />
+        <Timer />
         <Footer />
       </Router>
 
