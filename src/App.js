@@ -9,6 +9,8 @@ import Donate from './components/pages/Donate';
 import About from './components/pages/About';
 import MainSection from './components/MainSection';
 import Map from './components/Map';
+import Contacts from './components/Contacts';
+import "./styles/MapAndContacts.css"
 import Footer from './components/Footer';
 
 function App() {
