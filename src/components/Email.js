@@ -36,8 +36,8 @@ const Email = () => {
           name='email'
           type='email'
           value={inputValue}
-          placeholder={valid ? 'Your Email' : 'Invalid Email'}
-          style={{ borderColor: valid ? '#fff' : '#ff0000' }}
+          placeholder='Your Email'
+          style={{ borderColor: (valid || !inputValue) ? '#fff' : '#ff0000' }}
           onChange={(e) => checkValid(e.target.value)}
         />
         <Button buttonStyle='btn--outline' onClick={onJoin} disable={!valid}>Join</Button>

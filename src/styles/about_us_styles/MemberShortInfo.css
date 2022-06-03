@@ -7,6 +7,7 @@ img {
 .member-short-info {
     display: flex;
     flex-direction: column;
+    text-align: center;
     gap: 5px;
     /*height: 100%;*/
 }

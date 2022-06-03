@@ -28,7 +28,7 @@ const Member = (props) => {
             state === 'details' && (
                 <div className='info-with-button'>
                     <MemberDetails {...props}/>
-                    <butto className='member-button' onClick={toggleComponent}><BsToggleOn /></butto>
+                    <button className='member-button' onClick={toggleComponent}><BsToggleOn /></button>
                 </div>
             )
         }
