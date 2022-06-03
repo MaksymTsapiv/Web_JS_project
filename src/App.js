@@ -4,9 +4,15 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
-import About from './components/pages/AboutUs';
+import Products from './components/pages/Gallery';
+import Donate from './components/pages/Donate';
+import About from './components/pages/About';
+import MainSection from './components/MainSection';
 import Footer from './components/Footer';
-import Gallery from './components/pages/Gallery';
+import WhyChooseUs from './components/WhyChooseUs';
+import OurMission from './components/OurMission';
+
+
 
 function App() {
   return (
@@ -14,11 +20,15 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact element={<Home/>} />
-          <Route path='/about' element={<About/>} />
+          <Route path='/' exact component={Home} />
+          <Route path='/about' component={About} />
           <Route path='/services' component={Services} />
-          <Route path='/gallery' component={Gallery} />
+          <Route path='/gallery' component={Products} />
+          <Route path='/donate' component={Donate} />
         </Routes>
+        <MainSection />
+        <WhyChooseUs/>
+        <OurMission/>
         <Footer />
       </Router>
 

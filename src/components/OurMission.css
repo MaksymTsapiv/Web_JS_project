@@ -1,0 +1,87 @@
+.our-mission-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(247, 247, 247)
+}
+
+
+.our-mission-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.our-mission-title h2{
+    font-size: 40px;
+}
+
+.our-mission-title p {
+    color: grey;
+    margin-top: 10px;
+}
+
+.our-mission-cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.our-mission-item{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.our-mission-item img{
+    height: 200px;
+}
+.card-title{
+    text-align: center;
+}
+.our-mission-item h3{
+    font-size: 25px;
+    margin-top: 18px;
+}
+.our-mission-item p{
+    font-size: 16px;
+    margin-top: 16px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.two-borders{
+    height: 20px;
+    width: 5px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: 10px;
+
+}
+
+@media (max-width: 1000px){
+    .our-mission-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 160vh;
+        background-color: rgb(247, 247, 247)
+    }
+    .our-mission-title p {
+        color: grey;
+        margin-top: 10px;
+        text-align: center;
+        margin-left:10%;
+        margin-right:10%;
+
+    }
+}

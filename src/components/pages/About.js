@@ -1,11 +1,13 @@
 import React from 'react';
 import '../../App.css';
-import Team from '../about_us/Team';
+import Footer from '../Footer';
+import MainSection from '../MainSection';
 
 function About() {
   return (
     <>
-      <Team />
+      <MainSection />
+      <Footer />
     </>
   );
 }

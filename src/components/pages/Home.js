@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import Footer from '../Footer';
 import MainSection from '../MainSection';
-import Timer from '../Timer';
 
 function Home() {
   return (
     <>
       <MainSection />
-      <Timer />
+      <Footer />
     </>
   );
 }
