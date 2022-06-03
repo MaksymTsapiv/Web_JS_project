@@ -24,7 +24,10 @@ function App() {
           <Route path='/donate' component={Donate} />
         </Routes>
         <MainSection />
-        <Map />
+        <div className='MapAndContacts'>
+                <Contacts />
+                <Map />
+            </div>
         <Footer />
       </Router>
 
