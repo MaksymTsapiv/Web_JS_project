@@ -8,6 +8,7 @@ import Products from './components/pages/Gallery';
 import Donate from './components/pages/Donate';
 import About from './components/pages/About';
 import MainSection from './components/MainSection';
+import Map from './components/Map';
 import Footer from './components/Footer';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path='/donate' component={Donate} />
         </Routes>
         <MainSection />
+        <Map />
         <Footer />
       </Router>
 
