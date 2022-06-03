@@ -22,13 +22,13 @@ function Expire(props)
     };
 
     if (props.num === 0) {
-        return <span />;
+        return <span>{'Click to copy to clipboard!'}</span>;
     }
 
     return (
         isVisible
             ? <div>{props.children}</div>
-            : <span />
+            : <span>{'Click to copy to clipboard!'}</span>
     );
 }
 
