@@ -25,7 +25,7 @@ function MainSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={(e) => {e.preventDefault(); window.location.href='https://www.youtube.com/';}}
+          onClick={(e) => {e.preventDefault(); window.location.href='https://youtu.be/esbWJbZ2xXU';}}
         >
           WATCH VIDEO <i class="fa-solid fa-circle-play"/>
         </Button>

@@ -4,12 +4,9 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
-import Products from './components/pages/Gallery';
-import Donate from './components/pages/Donate';
-import About from './components/pages/About';
-import MainSection from './components/MainSection';
+import About from './components/pages/AboutUs';
 import Footer from './components/Footer';
-import Timer from './components/Timer';
+import Gallery from './components/pages/Gallery';
 
 function App() {
   return (
@@ -17,14 +14,11 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact component={Home} />
-          <Route path='/about' component={About} />
+          <Route path='/' exact element={<Home/>} />
+          <Route path='/about' element={<About/>} />
           <Route path='/services' component={Services} />
-          <Route path='/gallery' component={Products} />
-          <Route path='/donate' component={Donate} />
+          <Route path='/gallery' component={Gallery} />
         </Routes>
-        <MainSection />
-        <Timer />
         <Footer />
       </Router>
 
