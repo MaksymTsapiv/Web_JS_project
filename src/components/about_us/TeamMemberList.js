@@ -42,7 +42,7 @@ const TeamMemberList = () => {
         {
             id: 5,
             img: 'orest.jpg',
-            name: 'Orest Andrysushun',
+            name: 'Orest Andrusyshyn',
             details: 'CS UCU student',
             facebookLink: 'https://react-icons.github.io/react-icons/search?q=linkedin',
             gitHubLink: 'https://react-icons.github.io/react-icons/search?q=linkedin',
