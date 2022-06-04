@@ -33,7 +33,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             BYBYOM
-            <i class="fa-solid fa-bomb"></i>
+            <i className="fa-solid fa-bomb"></i>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -55,7 +55,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/about'
+                to='/services'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >

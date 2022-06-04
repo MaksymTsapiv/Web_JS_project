@@ -1,0 +1,55 @@
+.post {
+    background-color: transparent;
+    color: #242424;
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 300px;
+    width: 25%;
+    padding: 15px;
+    margin-top: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    cursor: pointer;
+    /*overflow: hidden;*/
+    /*border-style: solid;*/
+    /*border-width: 2px;*/
+    /*border-color: black;*/
+    /*border-radius: 25px;*/
+    /*box-shadow: 10px 5px 5px grey;*/
+}
+.post:hover {
+    background-color: lightgrey;
+}
+
+.post-content {
+    text-overflow: clip;
+    height: 80%;
+    position: relative;
+    top: 25%;
+    /*left: 10%;*/
+}
+.post-btn {
+    text-decoration: none;
+    color: #242424;
+    position: relative;
+    /*top: 160px;*/
+}
+.title {
+    position: relative;
+    top: 20px;
+        
+}
+.post-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.post-icon {
+    transform: scale(1.8);
+    margin-left: 10px;
+}
+.services-page {
+    padding: 100px 0;
+}
