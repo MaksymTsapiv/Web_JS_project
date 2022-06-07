@@ -24,7 +24,8 @@ const Contacts = () => {
             <span>{'Copied to clipboard!'}</span>
         </Expire>
         {contacts.map((contact) => (
-            <Contact key={contact.id} value={contact.value} IconIn={contact.iconIn} IconOut={contact.iconOut} click={()=>onContactClick(contact.value)}/>
+            <Contact key={contact.id} value={contact.value} IconIn={contact.iconIn} IconOut={contact.iconOut}
+                     click={()=>onContactClick(contact.value)}/>
         ))
         }
         <span>{`Number of clicks: ${pair.counter}`}</span>

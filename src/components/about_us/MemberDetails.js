@@ -1,7 +1,7 @@
 import { FaFacebook, FaLinkedin, FaGithub } from 'react-icons/fa'
 import '../../styles/about_us_styles/MemberDetails.css'
 
-const MemberDetails = ( {name, details, facebookLink, gitHubLink, linkedInLink} ) => {
+const MemberDetails = ({ name, details, facebookLink, gitHubLink, linkedInLink }) => {
     return <div className='member-details'>
         <span>{name}</span>
         <span>{details}</span>

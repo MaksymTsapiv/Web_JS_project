@@ -10,8 +10,6 @@ import { BsHeadphones, BsFileEarmarkSpreadsheet } from 'react-icons/bs'
 const ServiceItemList = () => {
     const [posts, setPosts] = useState([]);
 
-
-
     const iconlist = {
         "IoPersonOutline": <IoPersonOutline className='post-icon' />,
         "ImTarget": <ImTarget className='post-icon' />,
@@ -34,7 +32,7 @@ const ServiceItemList = () => {
                     <ServiceItem key={post.id} post={post} icon={iconlist[post.iconElement]} />
                 )}
             </div>
-            
+
         </div>
     )
 }

@@ -5,19 +5,16 @@
 
 import React, { useEffect, useState } from 'react';
 
-function Expire(props)
-{
+function Expire(props) {
 
     const [isVisible, setIsVisible] = useState(true);
 
-    useEffect(() =>
-    {
+    useEffect(() => {
         setTimer(props.delay);
     }, []);
 
 
-    const setTimer = (delay) =>
-    {
+    const setTimer = (delay) => {
         setTimeout(() => setIsVisible(false), delay);
     };
 
