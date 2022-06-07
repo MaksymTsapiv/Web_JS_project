@@ -1,39 +1,23 @@
 
-.wrapper {
-    height: 200px;
-    position: center;
+.circle {
     width: 200px;
-  }
-
-.text {
-    background: radial-gradient(
-      ellipse at center,
-      rgba(210, 20, 20, 0.7) 0%,
-    rgba(210, 20, 20, 0.7) 70%,
-    rgba(210, 20, 20, 0) 70.3%
-    );
-    height: 100%;
-    width: 100%;
-    color: white;
-    position: center;
-    margin: 0;
-  }
-
-.text p {
+    height: 200px;
+    line-height: 200px;
+    border-radius: 50%;
     font-size: 41px;
     font-family:'ExquisiteCorpse', Jokerman, Marker Felt;
-    height: 100%;
-    line-height: 1.25;
     padding: 0;
     text-align: center;
     text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
-}
-
-.text::before {
-    content: "";
-    float: left;
-    height: 100%;
-    width: 50%;
+    
+    color: #fff;
+    text-align: center;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(210, 20, 20, 0.7) 0%,
+      rgba(210, 20, 20, 0.7) 70%,
+      rgba(210, 20, 20, 0) 70.3%
+      );
     shape-outside: polygon(
       0 0,
       98% 0,
@@ -47,36 +31,4 @@
       98% 100%,
       0 100%
     );
-    shape-margin: 7%;
-}
-
-.text p::before {
-    content: "";
-    float: right;
-    height: 100%;
-    width: 50%;
-    shape-outside: polygon(
-      2% 0%,
-      100% 0%,
-      100% 100%,
-      2% 100%,
-      50% 94%,
-      76.6% 82.7%,
-      94% 65.6%,
-      100% 50%,
-      94% 32.6%,
-      76.6% 17.3%,
-      50% 6%
-      );
-    shape-margin: 7%;
-}
-
-.wrapper span footer {
-    bottom: 25px;
-    font-size: 17px;
-    font-style: italic;
-    position: absolute;
-    text-align: center;
-    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
-    width: 100%;
-}
+  }

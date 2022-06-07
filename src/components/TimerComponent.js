@@ -6,11 +6,7 @@ const TimerComponent = (props) => {
     const dateType = props.dateType;
 
     return (
-    <div className="wrapper">
-        <div className="text">
-            <p>{timePassed} {dateType}</p>
-        </div>
-    </div>
+    <div className="circle">{timePassed} {dateType}</div>
     )
 }
 
