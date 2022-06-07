@@ -1,13 +1,12 @@
 import '../../styles/service_styles/Serv.css'
 
 
-const ServiceItem = ({ post }) => {
-    let l = post.buttonLink;
+const ServiceItem = ({ post, icon }) => {
 
     return (
         <div className="post">
             <div>
-                { post.iconElement }
+                { icon }
             </div>
             <div className="title">
                 <h3>{ post.title }</h3>
@@ -16,7 +15,6 @@ const ServiceItem = ({ post }) => {
                 <span >{ post.description }</span>
             </div>
             <a className="post-btn" href={post.buttonLink}>Read More</a>
-            {/*<td className="post-btn" onClick={()=> window.open(l, "_blank")}>Read More</td>*/}
         </div>
     );
 };

@@ -1,0 +1,102 @@
+{
+  "members" : [
+    {
+      "id": 1,
+      "img": "maksym.png",
+      "name": "Maksym Tsapiv",
+      "details": "CS UCU student",
+      "facebookLink": "https://www.facebook.com/profile.php?id=100010098152610",
+      "gitHubLink": "https://github.com/MaksymTsapiv",
+      "linkedInLink": "https://www.facebook.com/profile.php?id=100010098152610"
+    },
+    {
+      "id": 2,
+      "img": "bohdanb.jpg",
+      "name": "Bogdan Bryk",
+      "details": "CS UCU student",
+      "facebookLink": "https://www.facebook.com/profile.php?id=100010098152610",
+      "gitHubLink": "https://github.com/bbryk",
+      "linkedInLink": "https://www.facebook.com/profile.php?id=100010098152610"
+    },
+    {
+      "id": 3,
+      "img": "yura.jpg",
+      "name": "Yurii Bodakovskyi",
+      "details": "CS UCU student",
+      "facebookLink": "https://www.facebook.com/profile.php?id=100010098152610",
+      "gitHubLink": "https://github.com/YuraBD",
+      "linkedInLink": "https://www.facebook.com/profile.php?id=100010098152610"
+    },
+    {
+      "id": 4,
+      "img": "bohdans.jpg",
+      "name": "Boghan Shevchyk",
+      "details": "CS UCU student",
+      "facebookLink": "https://www.facebook.com/profile.php?id=100010098152610",
+      "gitHubLink": "https://github.com/shevdan",
+      "linkedInLink": "https://www.facebook.com/profile.php?id=100010098152610"
+    },
+    {
+      "id": 5,
+      "img": "orest.jpg",
+      "name": "Orest Andrusyshyn",
+      "details": "CS UCU student",
+      "facebookLink": "https://www.facebook.com/profile.php?id=100010098152610",
+      "gitHubLink": "https://github.com/Andrusyshyn-Orest",
+      "linkedInLink": "https://www.facebook.com/profile.php?id=100010098152610"
+    },
+    {
+      "id": 6,
+      "img": "yaroslav.jpg",
+      "name": "Yaroslav Brovchenko",
+      "details": "CS UCU student",
+      "facebookLink": "https://www.facebook.com/profile.php?id=100010098152610",
+      "gitHubLink": "https://github.com/firstgenius",
+      "linkedInLink": "https://www.facebook.com/profile.php?id=100010098152610"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title":"Join Volunteers",
+      "description": "Join volunteers and help Ukrainian Army and refugees ",
+      "buttonLink":"https://portal.lviv.ua/news/2022/03/03/iak-dopomohty-volonterski-orhanizatsii-ta-tsentry-u-lvovi",
+      "iconElement": "IoPersonOutline"
+    },
+    {
+      "id": 2,
+      "title":"Our Mission",
+      "description": "The goal of this organization is to help Ukrainian Army and refugees",
+      "buttonLink":"https://bank.gov.ua/ua/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi",
+      "iconElement": "ImTarget"
+    },
+    {
+      "id": 3,
+      "title":"Become Volunteer",
+      "description": "You can become volonteer and help alot",
+      "buttonLink":"https://portal.lviv.ua/news/2022/03/03/iak-dopomohty-volonterski-orhanizatsii-ta-tsentry-u-lvovi",
+      "iconElement": "AiOutlineMail"
+    },
+    {
+      "id": 4,
+      "title":"24/7 support",
+      "description": "Any questions? Contact support",
+      "buttonLink":"https://www.mil.gov.ua/kontakti/garyacha-liniya.html",
+      "iconElement": "BsHeadphones"
+    },
+    {
+      "id": 5,
+      "title":"Education Policy",
+      "description": "The educational policy  here",
+      "buttonLink":"https://www.youtube.com/",
+      "iconElement": "BsFileEarmarkSpreadsheet"
+    },
+    {
+      "id": 6,
+      "title":"Party Growing",
+      "description": "The results we made by now",
+      "buttonLink":"https://www.mil.gov.ua/kontakti/garyacha-liniya.html",
+      "iconElement": "ImStatsDots"
+    }
+  ]
+}
