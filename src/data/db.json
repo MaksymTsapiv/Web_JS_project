@@ -1,5 +1,5 @@
 {
-  "members" : [
+  "members": [
     {
       "id": 1,
       "img": "maksym.png",
@@ -58,45 +58,48 @@
   "posts": [
     {
       "id": 1,
-      "title":"Join Volunteers",
+      "title": "Join Volunteers",
       "description": "Join volunteers and help Ukrainian Army and refugees ",
-      "buttonLink":"https://portal.lviv.ua/news/2022/03/03/iak-dopomohty-volonterski-orhanizatsii-ta-tsentry-u-lvovi",
+      "buttonLink": "https://portal.lviv.ua/news/2022/03/03/iak-dopomohty-volonterski-orhanizatsii-ta-tsentry-u-lvovi",
       "iconElement": "IoPersonOutline"
     },
     {
       "id": 2,
-      "title":"Our Mission",
+      "title": "Our Mission",
       "description": "The goal of this organization is to help Ukrainian Army and refugees",
-      "buttonLink":"https://bank.gov.ua/ua/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi",
+      "buttonLink": "https://bank.gov.ua/ua/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi",
       "iconElement": "ImTarget"
     },
     {
       "id": 3,
-      "title":"Become Volunteer",
+      "title": "Become Volunteer",
       "description": "You can become volonteer and help alot",
-      "buttonLink":"https://portal.lviv.ua/news/2022/03/03/iak-dopomohty-volonterski-orhanizatsii-ta-tsentry-u-lvovi",
+      "buttonLink": "https://portal.lviv.ua/news/2022/03/03/iak-dopomohty-volonterski-orhanizatsii-ta-tsentry-u-lvovi",
       "iconElement": "AiOutlineMail"
     },
     {
       "id": 4,
-      "title":"24/7 support",
+      "title": "24/7 support",
       "description": "Any questions? Contact support",
-      "buttonLink":"https://www.mil.gov.ua/kontakti/garyacha-liniya.html",
+      "buttonLink": "https://www.mil.gov.ua/kontakti/garyacha-liniya.html",
       "iconElement": "BsHeadphones"
     },
     {
       "id": 5,
-      "title":"Education Policy",
+      "title": "Education Policy",
       "description": "The educational policy  here",
-      "buttonLink":"https://www.youtube.com/",
+      "buttonLink": "https://www.youtube.com/",
       "iconElement": "BsFileEarmarkSpreadsheet"
     },
     {
       "id": 6,
-      "title":"Party Growing",
+      "title": "Party Growing",
       "description": "The results we made by now",
-      "buttonLink":"https://www.mil.gov.ua/kontakti/garyacha-liniya.html",
+      "buttonLink": "https://www.mil.gov.ua/kontakti/garyacha-liniya.html",
       "iconElement": "ImStatsDots"
     }
-  ]
+  ],
+  "NumberOfClicks": {
+    "clicks": 2
+  }
 }
