@@ -60,16 +60,16 @@
       "id": 1,
       "title": "Join Volunteers",
       "description": "Join volunteers and help Ukrainian Army and refugees ",
-      "buttonLink": "https://portal.lviv.ua/news/2022/03/03/iak-dopomohty-volonterski-orhanizatsii-ta-tsentry-u-lvovi",
+      "buttonLink": "https://volunteer.country/",
       "iconElement": "IoPersonOutline",
       "popup": {"title":"Join Volunteers", "description" : "A non-profit organization whose mission is to create a culture of volunteerism and mutual assistance in Ukraine."}
       
     },
     {
       "id": 2,
-      "title": "Our Mission",
+      "title": "Donations",
       "description": "The goal of this organization is to help Ukrainian Army and refugees",
-      "buttonLink": "https://bank.gov.ua/ua/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi",
+      "buttonLink": "https://u24.gov.ua/",
       "iconElement": "ImTarget",
       "popup": {"title":"Our mission", "description" : "UNITED24 was launched by the President of Ukraine Volodymyr Zelenskyy as the main venue for collecting charitable donations in support of Ukraine. Funds will be transferred to the official accounts of the National Bank of Ukraine and allocated by assigned ministries to cover the most pressing needs"}
     },
@@ -77,7 +77,7 @@
       "id": 3,
       "title": "Become Volunteer",
       "description": "You can become volonteer and help alot",
-      "buttonLink": "https://portal.lviv.ua/news/2022/03/03/iak-dopomohty-volonterski-orhanizatsii-ta-tsentry-u-lvovi",
+      "buttonLink": "https://visitukraine.today/blog/168/volunteering-in-ukraine-list-of-opportunities",
       "iconElement": "AiOutlineMail",
       "popup": {"title":"Become Volunteer", "description" : "You can be useful without weapons in hand! You can be safe and at the same time wage war on the information front, provide psychological assistance, join the humanitarian assembly."}
     },
@@ -85,23 +85,26 @@
       "id": 4,
       "title": "24/7 support",
       "description": "Any questions? Contact support",
-      "buttonLink": "https://www.mil.gov.ua/kontakti/garyacha-liniya.html",
+      "buttonLink": "https://visitukraine.today/blog/342/uniting-for-ukraine-how-to-apply-for-the-program-of-ukrainian-refugees-support-in-the-us",
       "iconElement": "BsHeadphones",
       "popup": {"title":"24/7 support", "description" : "Ukrainian refugee Support Program. To apply, check more information by the link"}
     },
     {
       "id": 5,
-      "title": "Education Policy",
-      "description": "The educational policy  here",
-      "buttonLink": "https://www.youtube.com/",
+      "title": "Education Opportunity",
+      "description": "The educational opportunities  here",
+      "buttonLink": "https://erudera.com/resources/list-of-universities-helping-ukrainian-students/",
       "iconElement": "BsFileEarmarkSpreadsheet",
-      "popup": {"title":"Educational Opportunities", "description" : "Many universities have expressed willingness to offer support to Ukrainians working and studying abroad as well as to students and academics who have already fled the country. The support is mainly academic, financial, legal advice."}
+      "popup": {
+        "title":"Educational Opportunities", 
+        "description" : "Many universities have expressed willingness to offer support to Ukrainians working and studying abroad as well as to students and academics who have already fled the country. The support is mainly academic, financial, legal advice."
+      }
     },
     {
       "id": 6,
       "title": "Party Growing",
       "description": "The results we made by now",
-      "buttonLink": "https://www.mil.gov.ua/kontakti/garyacha-liniya.html",
+      "buttonLink": "https://zaxid.net/vtrati_rosiyan_u_viyni_proti_ukrayini_n1537635",
       "iconElement": "ImStatsDots",
       "popup": {"title":"Party growing", "description" : "Total combat losses of russians according to the General Staff of Ukraine. See relevant information ин the link."}
 

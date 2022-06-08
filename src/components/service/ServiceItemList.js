@@ -5,6 +5,8 @@ import { IoPersonOutline } from 'react-icons/io5'
 import { ImTarget, ImStatsDots } from 'react-icons/im'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsHeadphones, BsFileEarmarkSpreadsheet } from 'react-icons/bs'
+import "./popUp.css"
+
 
 
 const ServiceItemList = () => {

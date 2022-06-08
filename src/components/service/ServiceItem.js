@@ -1,6 +1,7 @@
 import '../../styles/service_styles/Serv.css'
 
-
+import React, {useState} from 'react';
+import Popup from './popUp';
 const ServiceItem = ({ post, icon }) => {
     const [isOpen, setIsOpen] = useState(false);
  
@@ -18,7 +19,7 @@ const ServiceItem = ({ post, icon }) => {
             <div className="post-content">
                 <span >{ post.description }</span>
             </div>
-            
+
             <input
                 className="popup-btn1"
                 type="button"
