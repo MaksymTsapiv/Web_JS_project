@@ -61,42 +61,50 @@
       "title": "Join Volunteers",
       "description": "Join volunteers and help Ukrainian Army and refugees ",
       "buttonLink": "https://portal.lviv.ua/news/2022/03/03/iak-dopomohty-volonterski-orhanizatsii-ta-tsentry-u-lvovi",
-      "iconElement": "IoPersonOutline"
+      "iconElement": "IoPersonOutline",
+      "popup": {"title":"Join Volunteers", "description" : "A non-profit organization whose mission is to create a culture of volunteerism and mutual assistance in Ukraine."}
+      
     },
     {
       "id": 2,
       "title": "Our Mission",
       "description": "The goal of this organization is to help Ukrainian Army and refugees",
       "buttonLink": "https://bank.gov.ua/ua/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi",
-      "iconElement": "ImTarget"
+      "iconElement": "ImTarget",
+      "popup": {"title":"Our mission", "description" : "UNITED24 was launched by the President of Ukraine Volodymyr Zelenskyy as the main venue for collecting charitable donations in support of Ukraine. Funds will be transferred to the official accounts of the National Bank of Ukraine and allocated by assigned ministries to cover the most pressing needs"}
     },
     {
       "id": 3,
       "title": "Become Volunteer",
       "description": "You can become volonteer and help alot",
       "buttonLink": "https://portal.lviv.ua/news/2022/03/03/iak-dopomohty-volonterski-orhanizatsii-ta-tsentry-u-lvovi",
-      "iconElement": "AiOutlineMail"
+      "iconElement": "AiOutlineMail",
+      "popup": {"title":"Become Volunteer", "description" : "You can be useful without weapons in hand! You can be safe and at the same time wage war on the information front, provide psychological assistance, join the humanitarian assembly."}
     },
     {
       "id": 4,
       "title": "24/7 support",
       "description": "Any questions? Contact support",
       "buttonLink": "https://www.mil.gov.ua/kontakti/garyacha-liniya.html",
-      "iconElement": "BsHeadphones"
+      "iconElement": "BsHeadphones",
+      "popup": {"title":"24/7 support", "description" : "Ukrainian refugee Support Program. To apply, check more information by the link"}
     },
     {
       "id": 5,
       "title": "Education Policy",
       "description": "The educational policy  here",
       "buttonLink": "https://www.youtube.com/",
-      "iconElement": "BsFileEarmarkSpreadsheet"
+      "iconElement": "BsFileEarmarkSpreadsheet",
+      "popup": {"title":"Educational Opportunities", "description" : "Many universities have expressed willingness to offer support to Ukrainians working and studying abroad as well as to students and academics who have already fled the country. The support is mainly academic, financial, legal advice."}
     },
     {
       "id": 6,
       "title": "Party Growing",
       "description": "The results we made by now",
       "buttonLink": "https://www.mil.gov.ua/kontakti/garyacha-liniya.html",
-      "iconElement": "ImStatsDots"
+      "iconElement": "ImStatsDots",
+      "popup": {"title":"Party growing", "description" : "Total combat losses of russians according to the General Staff of Ukraine. See relevant information ин the link."}
+
     }
   ],
   "NumberOfClicks": {
