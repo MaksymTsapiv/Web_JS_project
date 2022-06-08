@@ -9,7 +9,7 @@ import Donate from './components/pages/Donate';
 import About from './components/pages/About';
 import MainSection from './components/MainSection';
 import Footer from './components/Footer';
-import WhyChooseUs from './components/WhyChooseUs';
+import Poster from './components/Poster';
 import OurMission from './components/OurMission';
 
 
@@ -27,7 +27,7 @@ function App() {
           <Route path='/donate' component={Donate} />
         </Routes>
         <MainSection />
-        <WhyChooseUs/>
+        <Poster/>
         <OurMission/>
         <Footer />
       </Router>
