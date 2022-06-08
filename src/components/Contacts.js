@@ -28,7 +28,7 @@ const Contacts = () => {
                      click={()=>onContactClick(contact.value)}/>
         ))
         }
-        <span>{`Number of clicks: ${pair.counter}`}</span>
+        <span>{`Number of copies: ${pair.counter}`}</span>
     </div>
 }
 
